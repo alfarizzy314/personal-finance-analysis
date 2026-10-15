@@ -22,6 +22,8 @@ Analysis of six months of personal income and expense data (Jul-Dec 2025): month
 
 [Data Finance 6 Bulan](https://www.kaggle.com/datasets/ugisugiman/data-finance) from Kaggle. Amounts are in Indonesian Rupiah (Rp).
 
+by Ugi Sugiman, licensed CC0 (Public Domain).
+
 Columns: `Date`, `Title`, `Amount`, `Type` (INCOME / EXPENSE), `Category`, `Account`.
 
 The dataset is not included in this repository. Download it from Kaggle and place the CSV at `dataset/Data_Finance_6_Bulan.csv`.
