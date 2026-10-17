@@ -28,20 +28,6 @@ Columns: `Date`, `Title`, `Amount`, `Type` (INCOME / EXPENSE), `Category`, `Acco
 
 The dataset is not included in this repository. Download it from Kaggle and place the CSV at `dataset/Data_Finance_6_Bulan.csv`.
 
-## How to Run
-
-```bash
-# 1. clone the repository
-git clone https://github.com/alfarizzy314/personal-finance-analysis.git
-cd personal-finance-analysis
-
-# 2. install dependencies
-pip install -r requirements.txt
-
-# 3. put the dataset in place (see Dataset section), then start Jupyter
-jupyter notebook main.ipynb
-```
-
 Run all cells from top to bottom. The interactive dashboard requires a live Jupyter session; it will not render in GitHub's notebook preview.
 
 ## Project Structure
@@ -53,7 +39,6 @@ Run all cells from top to bottom. The interactive dashboard requires a live Jupy
 │   └── Data_Finance_6_Bulan.csv    # download from Kaggle
 ├── images/
 │   └── dashboard.png               # dashboard screenshot
-├── requirements.txt
 └── README.md
 ```
 
